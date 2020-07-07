@@ -1,5 +1,3 @@
-package com.github.southpolemonkey.tutorial1;
-
 import org.apache.kafka.clients.consumer.ConsumerConfig;
 import org.apache.kafka.clients.consumer.ConsumerRecord;
 import org.apache.kafka.clients.consumer.ConsumerRecords;
@@ -12,14 +10,14 @@ import java.time.Duration;
 import java.util.Collections;
 import java.util.Properties;
 
-public class ConsumerDemo {
+public class ConsumerDemoGroups {
     public static void main(String[] args) {
         System.out.println("Hello world Consumer");
 
-        Logger logger = LoggerFactory.getLogger(ConsumerDemo.class.getName());
+        Logger logger = LoggerFactory.getLogger(ConsumerDemoGroups.class.getName());
 
         String bootstrapServers = "127.0.0.1:9092";
-        String groupId = "first-kafka-java-application";
+        String groupId = "first-kafka-java-application-second";
         String topic = "first_topic";
 
         // create consumer configuration

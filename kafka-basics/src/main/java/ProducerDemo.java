@@ -1,6 +1,3 @@
-package com.github.southpolemonkey.tutorial1;
-
-import oracle.jvm.hotspot.jfr.Producer;
 import org.apache.kafka.clients.producer.KafkaProducer;
 import org.apache.kafka.clients.producer.ProducerConfig;
 import org.apache.kafka.clients.producer.ProducerRecord;
