@@ -40,8 +40,6 @@ public class ProducerDemoWithCallback {
                             }
                         }
                     });
-
-
         }
 
         // flush data and close program
