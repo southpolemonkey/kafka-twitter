@@ -2,15 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="48b5f304-855a-4e08-b832-02c79cced8fc" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/kafka-stream/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kafka-stream/src/main/java/com/github/southpolemonkey/kafka/stream/StreamApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kafka-basics/src/main/java/ProducerDemoWithCallback.java" beforeDir="false" afterPath="$PROJECT_DIR$/kafka-basics/src/main/java/ProducerDemoWithCallback.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/kafka-producer-twitter/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/kafka-producer-twitter/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,14 +22,6 @@
         <option value="Class" />
       </list>
     </option>
-  </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>partition</find>
-      <find>assign</find>
-      <find>array</find>
-      <find>topic</find>
-    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -96,9 +81,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ProducerDemoKeys (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ProducerDemoKeys" />
-      <module name="kafka-basics" />
+    <configuration name="StreamApp (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.github.southpolemonkey.kafka.stream.StreamApp" />
+      <module name="kafka-stream" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.github.southpolemonkey.kafka.stream.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -125,18 +116,18 @@
     </configuration>
     <list>
       <item itemvalue="Application.ProducerDemo" />
-      <item itemvalue="Application.ProducerDemoKeys (1)" />
       <item itemvalue="Application.TwitterProducer (1)" />
       <item itemvalue="Application.StreamApp" />
       <item itemvalue="Application.ConsumerDemo" />
+      <item itemvalue="Application.StreamApp (1)" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Application.TwitterProducer (1)" />
+        <item itemvalue="Application.StreamApp (1)" />
         <item itemvalue="Application.ProducerDemo" />
         <item itemvalue="Application.ConsumerDemo" />
         <item itemvalue="Application.StreamApp" />
-        <item itemvalue="Application.ProducerDemoKeys (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -151,7 +142,7 @@
       <option name="presentableId" value="Default" />
       <updated>1593564267193</updated>
       <workItem from="1593564268454" duration="42501000" />
-      <workItem from="1594350802184" duration="901000" />
+      <workItem from="1594350802184" duration="1589000" />
     </task>
     <servers />
   </component>
@@ -166,22 +157,22 @@
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
     <state x="328" y="118" key="#Project_Structure/0.23.1680.1027@0.23.1680.1027" timestamp="1594351335317" />
-    <state width="1638" height="435" key="GridCell.Tab.0.bottom" timestamp="1594351599045">
+    <state width="1638" height="184" key="GridCell.Tab.0.bottom" timestamp="1594352543432">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state width="1638" height="435" key="GridCell.Tab.0.bottom/0.23.1680.1027@0.23.1680.1027" timestamp="1594351599045" />
-    <state width="1638" height="435" key="GridCell.Tab.0.center" timestamp="1594351599044">
+    <state width="1638" height="184" key="GridCell.Tab.0.bottom/0.23.1680.1027@0.23.1680.1027" timestamp="1594352543432" />
+    <state width="1638" height="184" key="GridCell.Tab.0.center" timestamp="1594352543431">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state width="1638" height="435" key="GridCell.Tab.0.center/0.23.1680.1027@0.23.1680.1027" timestamp="1594351599044" />
-    <state width="1638" height="435" key="GridCell.Tab.0.left" timestamp="1594351599043">
+    <state width="1638" height="184" key="GridCell.Tab.0.center/0.23.1680.1027@0.23.1680.1027" timestamp="1594352543431" />
+    <state width="1638" height="184" key="GridCell.Tab.0.left" timestamp="1594352543430">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state width="1638" height="435" key="GridCell.Tab.0.left/0.23.1680.1027@0.23.1680.1027" timestamp="1594351599043" />
-    <state width="1638" height="435" key="GridCell.Tab.0.right" timestamp="1594351599044">
+    <state width="1638" height="184" key="GridCell.Tab.0.left/0.23.1680.1027@0.23.1680.1027" timestamp="1594352543430" />
+    <state width="1638" height="184" key="GridCell.Tab.0.right" timestamp="1594352543432">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state width="1638" height="435" key="GridCell.Tab.0.right/0.23.1680.1027@0.23.1680.1027" timestamp="1594351599044" />
+    <state width="1638" height="184" key="GridCell.Tab.0.right/0.23.1680.1027@0.23.1680.1027" timestamp="1594352543432" />
     <state x="378" y="198" key="Maven.ArtifactSearchDialog" timestamp="1594351478270">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
